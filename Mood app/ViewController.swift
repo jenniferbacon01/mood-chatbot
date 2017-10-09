@@ -14,23 +14,28 @@ class ViewController: UIViewController {
     
     
     @IBAction func button1(_ sender: Any) {
-        messageDisplay(number: "1")
+        let number = 1
+        messageDisplay(number: String(number))
     }
     
     @IBAction func button2(_ sender: Any) {
-        messageDisplay(number: "2")
+        let number = 2
+        messageDisplay(number: String(number))
     }
     
     @IBAction func button3(_ sender: Any) {
-        messageDisplay(number: "3")
+        let number = 3
+        messageDisplay(number: String(number))
     }
     
     @IBAction func button4(_ sender: Any) {
-         messageDisplay(number: "4")
+        let number = 4
+         messageDisplay(number: String(number))
     }
     
     @IBAction func button5(_ sender: Any) {
-        messageDisplay(number: "5")
+        let number = 5
+        messageDisplay(number: String(number))
     }
     
     func messageDisplay(number: String) {
