@@ -13,10 +13,18 @@
 		0C20E1401F8BBF5A00DCCC59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C20E13F1F8BBF5A00DCCC59 /* Assets.xcassets */; };
 		0C20E1431F8BBF5A00DCCC59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C20E1411F8BBF5A00DCCC59 /* LaunchScreen.storyboard */; };
 		0C20E14E1F8BBF5B00DCCC59 /* Mood_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C20E14D1F8BBF5B00DCCC59 /* Mood_appTests.swift */; };
+		0C20E15F1F8BC44700DCCC59 /* Mood_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C20E15E1F8BC44700DCCC59 /* Mood_appUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		0C20E14A1F8BBF5B00DCCC59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C20E12D1F8BBF5A00DCCC59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C20E1341F8BBF5A00DCCC59;
+			remoteInfo = "Mood app";
+		};
+		0C20E1611F8BC44700DCCC59 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0C20E12D1F8BBF5A00DCCC59 /* Project object */;
 			proxyType = 1;
@@ -36,6 +44,9 @@
 		0C20E1491F8BBF5B00DCCC59 /* Mood appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mood appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C20E14D1F8BBF5B00DCCC59 /* Mood_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_appTests.swift; sourceTree = "<group>"; };
 		0C20E14F1F8BBF5B00DCCC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C20E15C1F8BC44700DCCC59 /* Mood appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mood appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C20E15E1F8BC44700DCCC59 /* Mood_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_appUITests.swift; sourceTree = "<group>"; };
+		0C20E1601F8BC44700DCCC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +64,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0C20E1591F8BC44700DCCC59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +79,7 @@
 			children = (
 				0C20E1371F8BBF5A00DCCC59 /* Mood app */,
 				0C20E14C1F8BBF5B00DCCC59 /* Mood appTests */,
+				0C20E15D1F8BC44700DCCC59 /* Mood appUITests */,
 				0C20E1361F8BBF5A00DCCC59 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +89,7 @@
 			children = (
 				0C20E1351F8BBF5A00DCCC59 /* Mood app.app */,
 				0C20E1491F8BBF5B00DCCC59 /* Mood appTests.xctest */,
+				0C20E15C1F8BC44700DCCC59 /* Mood appUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +114,15 @@
 				0C20E14F1F8BBF5B00DCCC59 /* Info.plist */,
 			);
 			path = "Mood appTests";
+			sourceTree = "<group>";
+		};
+		0C20E15D1F8BC44700DCCC59 /* Mood appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C20E15E1F8BC44700DCCC59 /* Mood_appUITests.swift */,
+				0C20E1601F8BC44700DCCC59 /* Info.plist */,
+			);
+			path = "Mood appUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +163,24 @@
 			productReference = 0C20E1491F8BBF5B00DCCC59 /* Mood appTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		0C20E15B1F8BC44700DCCC59 /* Mood appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C20E1631F8BC44700DCCC59 /* Build configuration list for PBXNativeTarget "Mood appUITests" */;
+			buildPhases = (
+				0C20E1581F8BC44700DCCC59 /* Sources */,
+				0C20E1591F8BC44700DCCC59 /* Frameworks */,
+				0C20E15A1F8BC44700DCCC59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C20E1621F8BC44700DCCC59 /* PBXTargetDependency */,
+			);
+			name = "Mood appUITests";
+			productName = "Mood appUITests";
+			productReference = 0C20E15C1F8BC44700DCCC59 /* Mood appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +196,11 @@
 						ProvisioningStyle = Automatic;
 					};
 					0C20E1481F8BBF5B00DCCC59 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0C20E1341F8BBF5A00DCCC59;
+					};
+					0C20E15B1F8BC44700DCCC59 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 0C20E1341F8BBF5A00DCCC59;
@@ -170,6 +222,7 @@
 			targets = (
 				0C20E1341F8BBF5A00DCCC59 /* Mood app */,
 				0C20E1481F8BBF5B00DCCC59 /* Mood appTests */,
+				0C20E15B1F8BC44700DCCC59 /* Mood appUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -186,6 +239,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0C20E1471F8BBF5B00DCCC59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C20E15A1F8BC44700DCCC59 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -212,6 +272,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0C20E1581F8BC44700DCCC59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C20E15F1F8BC44700DCCC59 /* Mood_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -219,6 +287,11 @@
 			isa = PBXTargetDependency;
 			target = 0C20E1341F8BBF5A00DCCC59 /* Mood app */;
 			targetProxy = 0C20E14A1F8BBF5B00DCCC59 /* PBXContainerItemProxy */;
+		};
+		0C20E1621F8BC44700DCCC59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C20E1341F8BBF5A00DCCC59 /* Mood app */;
+			targetProxy = 0C20E1611F8BC44700DCCC59 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -413,6 +486,36 @@
 			};
 			name = Release;
 		};
+		0C20E1641F8BC44700DCCC59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QYL64BN5XW;
+				INFOPLIST_FILE = "Mood appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sam-Ellenrieder.Mood-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mood app";
+			};
+			name = Debug;
+		};
+		0C20E1651F8BC44700DCCC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QYL64BN5XW;
+				INFOPLIST_FILE = "Mood appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sam-Ellenrieder.Mood-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mood app";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -439,6 +542,15 @@
 			buildConfigurations = (
 				0C20E1561F8BBF5B00DCCC59 /* Debug */,
 				0C20E1571F8BBF5B00DCCC59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C20E1631F8BC44700DCCC59 /* Build configuration list for PBXNativeTarget "Mood appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C20E1641F8BC44700DCCC59 /* Debug */,
+				0C20E1651F8BC44700DCCC59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
