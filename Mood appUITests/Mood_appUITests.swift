@@ -62,7 +62,21 @@ class Mood_appUITests: XCTestCase {
         app.buttons["5"].tap()
         XCTAssert(app.staticTexts["you chose 5"].exists)
     }
+    
+    func testHistoryButtonExists() {
+        XCTAssert(app.buttons["History"].exists)
+    }
+    
+    func testBackButtonExists() {
+        app.buttons["History"].tap()
+        XCTAssert(app.buttons["Back"].exists)
+    }
 
+    func testBackButtonWorks() {
+        app.buttons["History"].tap()
+        app.buttons["Back"].tap()
+        XCTAssert(app.staticTexts["How are you today?"].exists)
+    }
 
 
 
