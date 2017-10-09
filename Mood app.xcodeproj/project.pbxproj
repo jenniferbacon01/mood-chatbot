@@ -14,6 +14,9 @@
 		0C20E1431F8BBF5A00DCCC59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C20E1411F8BBF5A00DCCC59 /* LaunchScreen.storyboard */; };
 		0C20E14E1F8BBF5B00DCCC59 /* Mood_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C20E14D1F8BBF5B00DCCC59 /* Mood_appTests.swift */; };
 		0C20E15F1F8BC44700DCCC59 /* Mood_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C20E15E1F8BC44700DCCC59 /* Mood_appUITests.swift */; };
+		0C20E1671F8BDB5000DCCC59 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C20E1661F8BDB5000DCCC59 /* HistoryViewController.swift */; };
+		0C20E1681F8BDB5000DCCC59 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C20E1661F8BDB5000DCCC59 /* HistoryViewController.swift */; };
+		0C20E1691F8BDB5000DCCC59 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C20E1661F8BDB5000DCCC59 /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,7 @@
 		0C20E15C1F8BC44700DCCC59 /* Mood appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mood appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C20E15E1F8BC44700DCCC59 /* Mood_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_appUITests.swift; sourceTree = "<group>"; };
 		0C20E1601F8BC44700DCCC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C20E1661F8BDB5000DCCC59 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 				0C20E1381F8BBF5A00DCCC59 /* AppDelegate.swift */,
 				0C20E13A1F8BBF5A00DCCC59 /* ViewController.swift */,
 				0C20E13C1F8BBF5A00DCCC59 /* Main.storyboard */,
+				0C20E1661F8BDB5000DCCC59 /* HistoryViewController.swift */,
 				0C20E13F1F8BBF5A00DCCC59 /* Assets.xcassets */,
 				0C20E1411F8BBF5A00DCCC59 /* LaunchScreen.storyboard */,
 				0C20E1441F8BBF5A00DCCC59 /* Info.plist */,
@@ -259,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C20E1671F8BDB5000DCCC59 /* HistoryViewController.swift in Sources */,
 				0C20E13B1F8BBF5A00DCCC59 /* ViewController.swift in Sources */,
 				0C20E1391F8BBF5A00DCCC59 /* AppDelegate.swift in Sources */,
 			);
@@ -269,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C20E14E1F8BBF5B00DCCC59 /* Mood_appTests.swift in Sources */,
+				0C20E1681F8BDB5000DCCC59 /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C20E15F1F8BC44700DCCC59 /* Mood_appUITests.swift in Sources */,
+				0C20E1691F8BDB5000DCCC59 /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
