@@ -9,11 +9,17 @@
 import UIKit
 
 class HistoryViewController: UIViewController {
+    
+    var moodLog = [moodObject]()
 
     @IBAction func hello(_ sender: Any) {
-        print("hello world!")
+        for mood in moodLog{
+            print("\(mood.date): \(mood.mood)" )
+        }
     }
+
     
+    @IBOutlet weak var moodTable: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
